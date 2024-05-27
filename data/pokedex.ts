@@ -2664,8 +2664,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mrmime: {
 		num: 122,
 		name: "Mr. Mime",
-		types: ["Psychic", "Fairy"],
-		baseStats: {hp: 40, atk: 45, def: 65, spa: 100, spd: 120, spe: 90},
+		types: ["Rock", "Fighting"],
+		baseStats: {hp: 40, atk: 100, def: 100, spa: 100, spd: 120, spe: 90},
 		abilities: {0: "Soundproof", 1: "Filter", H: "Technician"},
 		heightm: 1.3,
 		weightkg: 54.5,
@@ -2726,7 +2726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	electabuzz: {
 		num: 125,
 		name: "Electabuzz",
-		types: ["Electric"],
+		types: ["Groung", "Dragon"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 65, atk: 83, def: 57, spa: 95, spd: 85, spe: 105},
 		abilities: {0: "Static", H: "Vital Spirit"},
