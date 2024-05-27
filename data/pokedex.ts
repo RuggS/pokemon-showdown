@@ -2726,7 +2726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	electabuzz: {
 		num: 125,
 		name: "Electabuzz",
-		types: ["Groung", "Dragon"],
+		types: ["Ground", "Dragon"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 65, atk: 83, def: 57, spa: 95, spd: 85, spe: 105},
 		abilities: {0: "Static", H: "Vital Spirit"},
