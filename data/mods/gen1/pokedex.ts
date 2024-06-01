@@ -205,7 +205,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	dugtrio: {
 		inherit: true,
-		baseStats: {hp: 35, atk: 80, def: 50, spa: 70, spd: 70, spe: 120},
+		baseStats: {hp: 35, atk: 120, def: 50, spa: 75, spd: 75, spe: 70},
 	},
 	meowth: {
 		inherit: true,
@@ -237,7 +237,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	arcanine: {
 		inherit: true,
-		baseStats: {hp: 90, atk: 110, def: 80, spa: 80, spd: 80, spe: 95},
+		baseStats: {hp: 110, atk: 80, def: 80, spa: 88, spd: 88, spe: 90},
 	},
 	poliwag: {
 		inherit: true,
@@ -305,7 +305,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	golem: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 110, def: 130, spa: 55, spd: 55, spe: 45},
+		baseStats: {hp: 55, atk: 45, def: 105, spa: 93, spd: 93, spe: 115},
 	},
 	ponyta: {
 		inherit: true,
@@ -335,7 +335,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	farfetchd: {
 		inherit: true,
-		baseStats: {hp: 52, atk: 65, def: 55, spa: 58, spd: 58, spe: 60},
+		baseStats: {hp: 52, atk: 58, def: 58, spa: 63, spd: 63, spe: 55},
 	},
 	doduo: {
 		inherit: true,
@@ -443,7 +443,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	weezing: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 90, def: 120, spa: 85, spd: 85, spe: 60},
+		baseStats: {hp: 120, atk: 65, def: 90, spa: 73, spd: 73, spe: 85},
 	},
 	rhyhorn: {
 		inherit: true,
@@ -451,7 +451,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rhydon: {
 		inherit: true,
-		baseStats: {hp: 105, atk: 130, def: 120, spa: 45, spd: 45, spe: 40},
+		baseStats: {hp: 40, atk: 45, def: 45, spa: 118, spd: 118, spe: 120},
 	},
 	chansey: {
 		inherit: true,
@@ -459,7 +459,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	tangela: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 55, def: 115, spa: 100, spd: 100, spe: 60},
+		baseStats: {hp: 88, atk: 90, def: 100, spa: 118, spd: 118, spe: 65},
 	},
 	kangaskhan: {
 		inherit: true,
@@ -491,7 +491,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	mrmime: {
 		inherit: true,
-		baseStats: {hp: 40, atk: 45, def: 65, spa: 100, spd: 100, spe: 90},
+		types: ["Fighting", "Rock"],
+		baseStats: {hp: 65, atk: 100, def: 100, spa: 68, spd: 68, spe: 40},
 	},
 	scyther: {
 		inherit: true,
@@ -503,7 +504,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	electabuzz: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 83, def: 57, spa: 85, spd: 85, spe: 105},
+		baseStats: {hp: 65, atk: 85, def: 57, spa: 84, spd: 84, spe: 105},
 	},
 	magmar: {
 		inherit: true,
@@ -567,7 +568,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	kabutops: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 115, def: 105, spa: 70, spd: 70, spe: 80},
+		baseStats: {hp: 70, atk: 80, def: 105, spa: 65, spd: 65, spe: 115},
 	},
 	aerodactyl: {
 		inherit: true,
@@ -579,7 +580,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	articuno: {
 		inherit: true,
-		baseStats: {hp: 90, atk: 85, def: 100, spa: 125, spd: 125, spe: 85},
+		baseStats: {hp: 85, atk: 90, def: 125, spa: 105, spd: 105, spe: 100},
 	},
 	zapdos: {
 		inherit: true,
@@ -587,7 +588,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	moltres: {
 		inherit: true,
-		baseStats: {hp: 90, atk: 100, def: 90, spa: 125, spd: 125, spe: 90},
+		baseStats: {hp: 125, atk: 90, def: 100, spa: 90, spd: 90, spe: 125},
 	},
 	dratini: {
 		inherit: true,

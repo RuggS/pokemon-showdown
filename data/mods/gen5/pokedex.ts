@@ -105,7 +105,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	mrmime: {
 		inherit: true,
-		types: ["Psychic"],
+		types: ["Fighting", "Rock"],
 	},
 	articuno: {
 		inherit: true,
