@@ -459,7 +459,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	tangela: {
 		inherit: true,
-		baseStats: {hp: 88, atk: 90, def: 100, spa: 118, spd: 118, spe: 65},
+		baseStats: {hp: 55, atk: 60, def: 100, spa: 108, spd: 108, spe: 65},
 	},
 	kangaskhan: {
 		inherit: true,
